@@ -14,8 +14,8 @@ img {
 	margin-top: 5%;
 	padding-left: 9%;
 	padding-right: 9%;
-	font-size: 15px;
-	line-height: 165%;
+	font-size: 17px; 
+	line-height: 185%;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -34,4 +34,9 @@ i {
 	font-size: 30px;
 }
 
+.footer {
+	padding-top:30%;
+	padding-left: 30%;
+	padding-right: 20%;
+}
 
