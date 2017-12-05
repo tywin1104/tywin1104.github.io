@@ -9,12 +9,20 @@ h1{
 	margin:16% auto;
 
 }
-img {
+img.projectIcon {
 	width:200px;
 	height:200px;
 	border-radius: 10%;
 	margin-right: 7%;
 	float:left;
+	opacity: 1;
+
+}
+img.projectIcon:hover {
+	opacity: 0.5;
+	 -webkit-transform: scale(0.8);
+     -ms-transform: scale(0.8);
+     transform: scale(0.8);
 }
 .main-text {
 	margin-top: 5%;
@@ -30,6 +38,7 @@ img {
   	margin-top: 2%;
   }
 }
+
 
 a.link{
 	width:40px;
