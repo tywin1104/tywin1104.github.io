@@ -1,3 +1,6 @@
+body {
+	margin-bottom: 60px;
+}
 h1{
 	text-transform: uppercase;
 	letter-spacing: 4px;
@@ -11,24 +14,18 @@ h1{
 }
 img.projectIcon {
 	width:200px;
-	height:200px;
+	height:200px; 
 	border-radius: 10%;
-	margin-right: 7%;
 	float:left;
-	opacity: 1;
+	opacity: 1; 
 
 }
-img.projectIcon:hover {
-	opacity: 0.5;
-	 -webkit-transform: scale(0.8);
-     -ms-transform: scale(0.8);
-     transform: scale(0.8);
-}
+
 .main-text {
 	margin-top: 5%;
 	/*padding-left: 9%;*/
 	padding-right: 9%;
-	font-size: 17px; 
+	font-size: 18px;
 	line-height: 185%;
 	font-family: 'Raleway', sans-serif;
 }
@@ -54,5 +51,27 @@ i {
 	padding-left: 30%;
 	padding-right: 20%;
 	font-size: 15px;
+}
+
+
+.talky {
+	/*width: 90%;*/
+	margin: 0 auto;
+	background-color: rgb(226,255,246);
+	border-radius: 25px;
+}
+
+#talkyImage {
+	display: inline-block;
+	float: right;
+} 
+
+#talkyIntro {
+	font-family: 'Raleway', sans-serif;
+	padding-top: 40px;
+	padding-left: 60px;
+	float: left;
+	display: inline-block;
+	width: 400px;
 }
 
