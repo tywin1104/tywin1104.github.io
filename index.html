@@ -1,89 +1,155 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tianyi Zhang</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="index.css">
-	<link rel="shortcut icon" type="image/x-icon" href="icon.ico" media="screen" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+  crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="./test.css">
 
-</head>
-<body>
- <div class="container">
-  <h1 class="text-center"><strong>Tianyi  Zhang</strong></h1>
 
- <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <div class="contacts text-center">
-      <a class="link" target="_blank" href="https://www.linkedin.com/in/tianyi-zhang-453a14105/"><span><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></span></a>
-        <a class="link" href="mailto:tiaven1104@gmail.com"><span><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></span></a>
-        <a class="link" target="_blank" href="https://github.com/tywin1104"><span><i class="fa fa-github fa-2x" aria-hidden="true"></i></span></a>
-        <!-- <a href="Assign2/Assign2.html "><strong>CS1XA3 Assign2</strong></a>	  -->
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="sass.html">About me</a></li>
+  <li><a href="badges.html">Experience</a></li>
+  <li><a href="collapsible.html">Projects</a></li>
+</ul>
+
+<div class="parallax-container parallaxx">
+    <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Tianyi Zhang</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#intro" class="smooth-goto">About me</a></li>
+              <li><a href=#timeline class="smooth-goto">Experience</a></li>
+              <li><a href="#projects" class="smooth-goto" id="last-nav-item">Projects</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+  <div class="front-content">
+    <div class="icons text-center">
+        <a href="https://www.linkedin.com/in/tywinzhang/" target="_blank">
+          <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+        <a href="mailto:tiaven1104@gmail.com" target="_blank">
+          <i class="far fa-envelope fa-3x"></i>
+        </a>
+        <a href="https://github.com/tywin1104" target="_blank">
+          <i class="fab fa-github  fa-3x"></i>
+        </a>
     </div>
+
+    <h1 id="name">TIANYI ZHANG</h1>
+    <p> Sophomore CS | McMaster</p>
+    <p>Active Learner | Experimental Innovator</p>
+    <a class="waves-effect waves-light btn-large smooth-goto" href="#intro" id="find-more-button">FIND OUT MORE
+    </a>
   </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 main-text">
-      <p>
-        <h3><b>Hi, there!</b></h3>
-        I am Tianyi Zhang, first-year computer science student at McMaster University, Hamilton, Ontario, Canada. I am an active learner and experimental innovator.
-        I love building products through programming that could solve problems around us. Also, I am greatly passionate about innovation and technology, especially machine learning and related applications. I have attended hackathons held in different places around the world. It was an amazing journey with great pleasure and sense of accomplishments.
-      </p>
-      <div class="resume">
-        <p>My <a target="_blank" href="docs/Resume.pdf" class="text-danger">resume </a>is available here.
-        </p>
+<section class="section intro" id="intro">
+  <div class="container">
+    <h2 class="header">Hi, there!</h2>
+    <p class="grey-text text-darken-3 lighten-3" id="intro-paragraph">
+      I am Tianyi Zhang, first-year computer science student at McMaster University, Hamilton, Ontario, Canada. I am an active
+      learner and experimental innovator. I love building products through programming that could solve problems around us.
+      Also, I am greatly passionate about innovation and technology, especially machine learning and related applications.
+      I have attended hackathons held in different places around the world. It was an amazing journey with great pleasure
+      and sense of accomplishments.<br><br>
+      My <a class="text-danger font-italic" href="./docs/Resume.pdf" target="_blank">resume</a>
+      is available here.
+    </p>
+  </div>
+</section>
+
+<section class="section timeline" id="timeline">
+  <img class="materialboxed" src="./assets/timelinejpg.jpg">
+
+</section>
+
+<section class="section project" id="projects">
+  <div class="container">
+    <div class="top-project">
+      <p class="text-center project-title"><u>Experimental Projects</u></p>
+
+      <a href="https://devpost.com/software/talky" target="_blank">
+        <div class="row talky">
+          <div class="col-lg-12">
+            <div class="text-right">
+              <div id="talkyIntro">
+                <h1 style="font-size: 50px">Talky</h1>
+                <h2 style="font-size: 40px">Help you to become better public speaker</h2>
+                <p style="font-size: 16px"><i class="fa fa-trophy"></i> winner of nwHacks 2018 @ Vancouver </p>
+              </div>
+              <img src="./assets/talky.svg">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="row cards">
+      <div class="col m6">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/redreach.png">
+          </div>
+          <div class="card-content">
+            <span class="card-project-title"><a href="https://www.redrea.ch/" target="_blank">RedReach</a></span>
+            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">RedReach<i class="material-icons right">close</i></span>
+            <p>
+              A startup Company at the Forge which is an innovative employment searching and job-posting platform, specializing in youth employment in GTA Area.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col m6">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/micro.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+            <p class="card-project-title"><a href="https://www.hackx.org/projects/121" target="_blank">Microcosm</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Microcosm<i class="material-icons right">close</i></span>
+            <p>An experimental prototyping project developed duringHack.init(). It is the prototype for an interactive encyclopedia of plants based on mixed reality /hololens implemented by Unity HoloToolkit Api.</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-      <img class="img-responsive img-thumbnail photo " src="self.jpg">
-    </div>
+  </div>
+</section>
 
-</div> 
+<section class="section footer text-center">
+  <p>@  Tianyi Zhang 2018</p>
+</section>
 
-<h1 class="text-center" ">EXPERIMENTAL PROJETS</h1><br><br>
-
-<a href="https://devpost.com/software/talky" target="_blank">
-	<div class="row talky">
-	<div class="col-lg-12">
-		<div class="text-right">
-			<div id="talkyIntro">
-				<h1 style="font-size: 50px">Talky</h1>
-	            <h2 style="font-size: 40px">Help you to become better public speaker</h2>
-	            <p style="font-size: 16px"><i class="fa fa-trophy"></i> winner of nwHacks 2018 @ Vancouver </p>
-			</div>
-	    	<img src="https://miltonleung.com/assets/talky-large.svg">	
-		</div> 
-	</div>
-   </div>
-	
-</a>
-
-
-
-<div class="row center"> 
-  <a href="https://www.redrea.ch/" target="_blank">
-	<div class="col-lg-6">
-		<div class="showcase redreach card-1">
-		</div>		
-	</div>
-  </a>
-	
-	<div class="col-lg-6">
-	  <a href="https://www.hackx.org/projects/121" target="_blank">
-		<div class="showcase card-1 micro">
-		</div>
-	</div>
-  </a>
-</div>
-
-<p style=" text-align: center; margin-top: 30px;font-size: 16px"><strong>@ Tianyi Zhang 2018</strong></p>
-
-</div>
-
-
-
- 
-</body>
-</html>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script>
+  M.AutoInit();
+  $(".brand-logo").click(function() {
+    $(document).scrollTop(0);
+  })
+  $(document).ready(function(){
+      $(this).scrollTop(0);
+  });
+  window.onscroll = function() {
+      var doc = document.documentElement;
+      var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+      console.log(top)
+      if(top <= 200) {
+        jQuery("nav").css('background-color', 'transparent');
+      }
+      else {
+        jQuery("nav").css('background-color', 'black');
+      }
+  }
+</script>
