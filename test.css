@@ -117,11 +117,19 @@ section.project {
     border-radius: 25px;
 }
 
+#talky-image {
+    max-width: 100%;
+    float:right;
+}
+
+.col-lg-12 {
+    height: 100%;
+}
 #talkyIntro {
-    padding-top: 40px;
-    padding-left: 60px;
+    padding-top: 10%;
+    padding-left: 10%;
     float: left;
-    width: 400px;
+    width: 50%;
 }
 
 /* Cards */
@@ -174,7 +182,25 @@ section.footer p {
         margin-top: 5%;
         text-align: center;
     }
-    .timeline img {
+    #timeline {
         display: none;
+    }
+    #talkyIntro {
+        /* padding-top: 10%; */
+        /* padding-left: 10%; */
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .container {
+        width: 100%;
+    }
+    #intro-paragraph {
+        font-size: 1.25rem;
+        line-height: 2rem;
     }
 }
