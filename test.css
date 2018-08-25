@@ -103,33 +103,25 @@ section.timeline {
 }
 
 /* Project Section */
-.project-title {
+#talky {
+    background-color: rgb(224, 255, 245)
+}
+#talky h4 {
     font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 5%;
 }
 
-section.project {
-    width: 100%;
+#talky h6 {
+    margin-top: 40%;
 }
 
-.talky {
-    margin: 0 auto;
-    background-color: rgb(226,255,246);
-    border-radius: 25px;
+#talky img {
+    float: right ;
 }
 
-#talky-image {
-    max-width: 100%;
-    float:right;
-}
-
-.col-lg-12 {
-    height: 100%;
-}
-#talkyIntro {
-    padding-top: 10%;
-    padding-left: 10%;
-    float: left;
-    width: 50%;
+.mobile-img {
+    display: none;
 }
 
 /* Cards */
@@ -168,10 +160,26 @@ section.footer p {
     font-size: 1.2rem;
 }
 
+@media (max-width: 900px) {
+    #talky h6 {
+        margin-top: 0;
+    }
+
+    .screen-img {
+        display: none
+    }
+    .mobile-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-img img {
+        max-height: 50%;
+    }
+
+}
+
 @media (max-width: 978px) {
-    /* .container {
-        width: 90%;
-    } */
     .parallaxx {
         max-height: 60vh;
     }
@@ -185,14 +193,6 @@ section.footer p {
     #timeline {
         display: none;
     }
-    #talkyIntro {
-        /* padding-top: 10%; */
-        /* padding-left: 10%; */
-        float: left;
-        width: 100%;
-        text-align: center;
-    }
-
 }
 
 @media (max-width: 450px) {
@@ -202,5 +202,8 @@ section.footer p {
     #intro-paragraph {
         font-size: 1.25rem;
         line-height: 2rem;
+    }
+    .mobile-img img{
+        height: 45%;
     }
 }
