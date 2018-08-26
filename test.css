@@ -257,7 +257,7 @@ section.footer p {
         justify-content: center;
     }
     .mobile-img img {
-        max-height: 50%;
+        max-height: 80%;
     }
 
 }
