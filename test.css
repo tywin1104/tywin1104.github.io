@@ -202,6 +202,10 @@ nav {
     padding-right: 4vw;
 }
 
+#welcome {
+    display: none;
+}
+
 a.brand-logo {
     font-size: 1.5rem;
 }
@@ -350,6 +354,9 @@ section.footer p {
 }
 
 @media (max-width: 450px) {
+    .icons {
+        display: none;
+    }
     .container {
         width: 100%;
     }
@@ -359,6 +366,12 @@ section.footer p {
     }
     .mobile-img img{
         height: 45%;
+    }
+    #welcome {
+        display: block;
+    }
+    #name {
+        display: none;
     }
 }
 
